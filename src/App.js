@@ -1,9 +1,12 @@
-import CharacterCard from './CharacterCard';
+import "./App.css";
+import WordCard from "./components/WordCard";
+
 function App() {
- return (
-    <div>
-      <CharacterCard value="h"/>
-      <CharacterCard value="i"/>
+  return (
+    <div className="content">
+      <WordCard value="hello" />
     </div>
- );
+  );
 }
+
+export default App;
